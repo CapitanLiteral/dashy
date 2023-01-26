@@ -60,6 +60,17 @@ sections:
         customCityName: Dublin
         format: es-SP
         hideDate: false 
+    - type: gl-current-cpu
+      options:
+        hostname: http://localhost:61208
+        - type: gl-current-mem
+        options:
+        hostname: http://localhost:61208
+    - type: gl-mem-history
+      options:
+        hostname: http://localhost:61208
+        limit: 80
+
 - name: Clock
   icon: fas fa-clock
   items:
