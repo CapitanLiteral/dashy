@@ -67,13 +67,13 @@ sections:
         hideDate: false 
     - type: gl-current-cpu
       options:
-        hostname: "http://91.116.33.5:61208"
+        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
     - type: gl-current-mem
       options:
-        hostname: "http://91.116.33.5:61208"
+        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
     - type: gl-mem-history
       options:
-        hostname: "http://91.116.33.5:61208"
+        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
         limit: 80
 
 - name: Clock
