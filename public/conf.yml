@@ -62,13 +62,13 @@ sections:
         hideDate: false 
     - type: gl-current-cpu
       options:
-        hostname: http://localhost:61208
+        hostname: http://91.116.33.5:61208
         - type: gl-current-mem
         options:
-        hostname: http://localhost:61208
+        hostname: http://91.116.33.5:61208
     - type: gl-mem-history
       options:
-        hostname: http://localhost:61208
+        hostname: http://91.116.33.5:61208
         limit: 80
 
 - name: Clock
