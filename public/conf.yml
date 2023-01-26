@@ -18,7 +18,7 @@ sections:
 - name: Getting Started
   icon: fas fa-rocket
   items:
-  - title: Dashy Live!!!!
+  - title: Dashy Live
     description: Development a project management links for Dashy
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://live.dashy.to/
@@ -45,13 +45,25 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
 
-#- name: Clock
-#  icon: fas fa-clock
-#  widgets:
-#    - type: clock
-#      options:
-#        timeZone: Europe/Madrid
-#        customCityName: Lleida
-#        format: es-SP
-#        hideDate: false 
-  
+- name: Clock
+  icon: fas fa-clock
+  widgets:
+    - type: clock
+      options:
+        timeZone: Europe/Madrid
+        customCityName: Lleida
+        format: es-SP
+        hideDate: false 
+    - type: clock
+      options:
+        timeZone: Europe/Dublin
+        customCityName: Dublin
+        format: es-SP
+        hideDate: false 
+- name: Clock
+  icon: fas fa-clock
+  items:
+    - title: Notion
+      description: Notion
+      url: notion://
+      icon: far fa-hands-helping
