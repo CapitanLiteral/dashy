@@ -47,7 +47,7 @@ sections:
   - title: Glances for Widgets
     description: Widgets pc info
     url: https://www.geeksforgeeks.org/how-to-use-glances-to-monitor-remote-linux-in-web-server-mode/
-    icon: far fa-computer
+    icon: favicon
     
 
 - name: Clock
