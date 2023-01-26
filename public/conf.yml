@@ -44,13 +44,14 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
-- name: Getting Started
+    
+- name: Clock
   icon: fas fa-clock
   widgets:
     - type: clock
       options:
-      timeZone: Europe/Madrid
-      customCityName: Lleida
-      format: es-SP
-      hideDate: false 
+        timeZone: Europe/Madrid
+        customCityName: Lleida
+        format: es-SP
+        hideDate: false 
   
