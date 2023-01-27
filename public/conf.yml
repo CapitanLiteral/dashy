@@ -77,6 +77,19 @@ sections:
   - title: Merge Requests
     icon: favicon
     url: https://git.digitgaming.com/digit/nano-prime-client/-/merge_requests/
+  widgets:
+  - type: clock
+    options:
+      timeZone: Europe/Madrid
+      customCityName: Lleida
+      format: es-SP
+      hideDate: false 
+  - type: clock
+    options:
+      timeZone: Europe/Dublin
+      customCityName: Dublin
+      format: es-SP
+      hideDate: false 
 #  - title: 
 #    description: 
 #    icon: favicon
