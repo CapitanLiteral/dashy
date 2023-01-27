@@ -15,39 +15,13 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  - title: Glances for Widgets
-    description: Widgets pc info
-    url: https://www.geeksforgeeks.org/how-to-use-glances-to-monitor-remote-linux-in-web-server-mode/
-    icon: favicon
+- name: Software
+icon: fas fa-desktop
+items:
+  - title: Notion
+    description: Notion
+    url: notion://
+    icon: far fa-folder-tree
 
 - name: Scopely
   icon: fas fa-rocket
@@ -147,10 +121,40 @@ sections:
 #      options:
 #        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
 
-- name: Software
-  icon: fas fa-desktop
+- name: Getting Started
+  displayData:
+    rows: 1
+    cols: 1
+    collapsed: true
+  icon: fas fa-rocket
   items:
-    - title: Notion
-      description: Notion
-      url: notion://
-      icon: far fa-folder-tree
+  - title: Dashy Live
+    description: Development a project management links for Dashy
+    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+    url: https://live.dashy.to/
+    target: newtab
+  - title: GitHub
+    description: Source Code, Issues and Pull Requests
+    url: https://github.com/lissy93/dashy
+    icon: favicon
+  - title: Docs
+    description: Configuring & Usage Documentation
+    provider: Dashy.to
+    icon: far fa-book
+    url: https://dashy.to/docs
+  - title: Showcase
+    description: See how others are using Dashy
+    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+    icon: far fa-grin-hearts
+  - title: Config Guide
+    description: See full list of configuration options
+    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+    icon: fas fa-wrench
+  - title: Support
+    description: Get help with Dashy, raise a bug, or get in contact
+    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+    icon: far fa-hands-helping
+  - title: Glances for Widgets
+    description: Widgets pc info
+    url: https://www.geeksforgeeks.org/how-to-use-glances-to-monitor-remote-linux-in-web-server-mode/
+    icon: favicon
