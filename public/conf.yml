@@ -66,12 +66,15 @@ sections:
         format: es-SP
         hideDate: false 
     - type: gl-current-cpu
+      useProxy: true  
       options:
         hostname: "http://1986-91-116-33-5.eu.ngrok.io"
     - type: gl-current-mem
+      useProxy: true  
       options:
         hostname: "http://1986-91-116-33-5.eu.ngrok.io"
     - type: gl-mem-history
+      useProxy: true  
       options:
         hostname: "http://1986-91-116-33-5.eu.ngrok.io"
         limit: 80
