@@ -133,21 +133,6 @@ sections:
       options:
         url: https://pomofocus.io/app
 
-- name: Clock
-  icon: fas fa-clock
-  widgets:
-    - type: clock
-      options:
-        timeZone: Europe/Madrid
-        customCityName: Lleida
-        format: es-SP
-        hideDate: false 
-    - type: clock
-      options:
-        timeZone: Europe/Dublin
-        customCityName: Dublin
-        format: es-SP
-        hideDate: false 
 - name: Teclat
   displayData:
     rows: 2
