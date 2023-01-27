@@ -131,6 +131,9 @@ sections:
         format: es-SP
         hideDate: false 
 - name: Teclat
+  displayData:
+    rows: 2
+    cols: 2
   icon: fa-solid fa-keyboard
   widgets:
     - type: image
