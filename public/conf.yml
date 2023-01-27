@@ -40,7 +40,7 @@ sections:
     url: https://confluence.scopely.io/display/ST/Tower+of+Ascension
   - title: STFC intro Ee0#4e8m
     description: Ee0#4e8m
-    icon: favicon
+    icon: fas fa-video
     url: https://scopely.zoom.us/rec/share/Hfo3nf947MCbNE-bc36L5cyWZv5mfDtbHLK5P3OSreoha5YPuSkNLZ4d2wotgWsb.1xmwZaV_2jTnwGCq
   - title: Okta
     icon: favicon
