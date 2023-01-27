@@ -70,8 +70,8 @@ sections:
 #    url:  
 - name: Pomodoro
   displayData:
-    rows: 1
-    cols: 2
+    rows: 2
+    cols: 1
     collapsed: false
   icon: fas fa-clock
   widgets:
