@@ -133,4 +133,6 @@ sections:
   - title: Icons
     url: https://fontawesome.com/search
     icon: favicon
-   
+  - title: Widgets
+    url: https://dashy.to/docs/widgets/
+    icon: favicon
