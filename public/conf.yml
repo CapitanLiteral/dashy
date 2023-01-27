@@ -72,11 +72,9 @@ sections:
     icon: favicon
     url: https://scopely.okta.com/app/UserHome
   - title: ToA Miro
-    description: 
     icon: favicon
     url: https://miro.com/app/board/uXjVPzjjqvA=/
   - title: Merge Requests
-    description: 
     icon: favicon
     url: https://git.digitgaming.com/digit/nano-prime-client/-/merge_requests/
 #  - title: 
