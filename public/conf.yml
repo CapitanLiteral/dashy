@@ -16,12 +16,12 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Software
-icon: fas fa-desktop
-items:
-  - title: Notion
-    description: Notion
-    url: notion://
-    icon: far fa-folder-tree
+  icon: fas fa-desktop
+  items:
+    - title: Notion
+      description: Notion
+      url: notion://
+      icon: far fa-folder-tree
 
 - name: Scopely
   icon: fas fa-rocket
@@ -67,39 +67,7 @@ items:
 #  - title: 
 #    description: 
 #    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#   - title: 
-#    description: 
-#    icon: favicon
-#    url:   
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
-#  - title: 
-#    description: 
-#    icon: favicon
-#    url: 
+#    url:  
 - name: Pomodoro
   displayData:
     rows: 1
