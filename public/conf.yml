@@ -64,7 +64,7 @@ sections:
   - title: ToA Main Page
     icon: favicon
     url: https://confluence.scopely.io/display/ST/Tower+of+Ascension
-  - title: STFC intro
+  - title: STFC intro Ee0#4e8m
     description: Ee0#4e8m
     icon: favicon
     url: https://scopely.zoom.us/rec/share/Hfo3nf947MCbNE-bc36L5cyWZv5mfDtbHLK5P3OSreoha5YPuSkNLZ4d2wotgWsb.1xmwZaV_2jTnwGCq
@@ -131,7 +131,7 @@ sections:
         format: es-SP
         hideDate: false 
 - name: Teclat
-  icon: fas fa-keyboard
+  icon: fa-solid fa-keyboard
   widgets:
     - type: image
       options:
@@ -141,10 +141,10 @@ sections:
 #      options:
 #        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
 
-- name: Clock
-  icon: fas fa-clock
+- name: Software
+  icon: fa-solid fa-desktop
   items:
     - title: Notion
       description: Notion
       url: notion://
-      icon: far fa-hands-helping
+      icon: far fa-folder-tree
