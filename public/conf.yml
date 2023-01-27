@@ -48,7 +48,71 @@ sections:
     description: Widgets pc info
     url: https://www.geeksforgeeks.org/how-to-use-glances-to-monitor-remote-linux-in-web-server-mode/
     icon: favicon
-    
+
+- name: Scopely
+  icon: fas fa-rocket
+  items:
+  - title: ToA Prototype presentation
+    icon: favicon
+    url: https://docs.google.com/presentation/d/1T5kXCg3saO7kStb9J_b10Km5LMH-lXaXBEJMK75WRa0/edit#slide=id.g1e6840548b6_13_7   
+  - title: ToA Tech plan
+    icon: favicon
+    url: https://confluence.scopely.io/display/ST/WIP%3A+Tower+of+Ascension+FE+Tech+Plan
+  - title: ToA Main Page
+    icon: favicon
+    url: https://confluence.scopely.io/display/ST/Tower+of+Ascension
+  - title: STFC intro
+    description: Ee0#4e8m
+    icon: favicon
+    url: https://scopely.zoom.us/rec/share/Hfo3nf947MCbNE-bc36L5cyWZv5mfDtbHLK5P3OSreoha5YPuSkNLZ4d2wotgWsb.1xmwZaV_2jTnwGCq
+  - title: Okta
+    icon: favicon
+    url: https://scopely.okta.com/app/UserHome
+  - title: ToA Miro
+    description: 
+    icon: favicon
+    url: https://miro.com/app/board/uXjVPzjjqvA=/
+  - title: Merge Requests
+    description: 
+    icon: favicon
+    url: https://git.digitgaming.com/digit/nano-prime-client/-/merge_requests/
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#   - title: 
+#    description: 
+#    icon: favicon
+#    url:   
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+#  - title: 
+#    description: 
+#    icon: favicon
+#    url: 
+
 
 - name: Clock
   icon: fas fa-clock
@@ -65,19 +129,16 @@ sections:
         customCityName: Dublin
         format: es-SP
         hideDate: false 
-    - type: gl-current-cpu
-      useProxy: true  
+- name: Teclat
+  icon: fas fa-keyboard
+  widgets:
+    - type: iframe
       options:
-        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
-    - type: gl-current-mem
-      useProxy: true  
-      options:
-        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
-    - type: gl-mem-history
-      useProxy: true  
-      options:
-        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
-        limit: 80
+      url: https://configure.zsa.io/moonlander/layouts/y9pDo/latest/0
+#    - type: gl-current-cpu
+#      useProxy: true  
+#      options:
+#        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
 
 - name: Clock
   icon: fas fa-clock
