@@ -55,7 +55,7 @@ sections:
     rows: 1
     cols: 2
   items:
-  - title: ToA Prototype presentation
+  - title: ToA Prototype
     icon: favicon
     url: https://docs.google.com/presentation/d/1T5kXCg3saO7kStb9J_b10Km5LMH-lXaXBEJMK75WRa0/edit#slide=id.g1e6840548b6_13_7   
   - title: ToA Tech plan
@@ -133,9 +133,9 @@ sections:
 - name: Teclat
   icon: fas fa-keyboard
   widgets:
-    - type: iframe
+    - type: image
       options:
-      url: https://configure.zsa.io/moonlander/layouts/y9pDo/latest/0
+        imagePath: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d0076177-bbfd-4f90-8444-b6cee82b5969/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230127T104430Z&X-Amz-Expires=86400&X-Amz-Signature=5245f657ce1fe845474077c84bb503947e3738628683d23c1dc44864207c847b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
 #    - type: gl-current-cpu
 #      useProxy: true  
 #      options:
