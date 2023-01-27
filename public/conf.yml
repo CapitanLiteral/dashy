@@ -130,3 +130,7 @@ sections:
     description: Widgets pc info
     url: https://www.geeksforgeeks.org/how-to-use-glances-to-monitor-remote-linux-in-web-server-mode/
     icon: favicon
+  - title: Icons
+    url: https://fontawesome.com/search
+    icon: favicon
+   
