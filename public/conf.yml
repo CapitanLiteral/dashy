@@ -51,6 +51,9 @@ sections:
 
 - name: Scopely
   icon: fas fa-rocket
+  displayData:
+    rows: 2
+    cols: 3
   items:
   - title: ToA Prototype presentation
     icon: favicon
