@@ -15,13 +15,18 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Software
+- name: Daily Useful
   icon: fas fa-desktop
   items:
     - title: Notion
       description: Notion
       url: notion://
       icon: far fa-folder-tree
+    - title: Chat-GPT
+      description: AI chat
+      url: https://chat.openai.com/chat
+      icon: favicon
+
 
 - name: Scopely
   icon: fas fa-rocket
