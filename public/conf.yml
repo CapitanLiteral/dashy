@@ -13,7 +13,6 @@ pageInfo:
 appConfig:
   theme: dashy-docs
   layout: auto
-  iconsize: small
   language: es
 
 # Main content - An array of sections, each containing an array of items
@@ -59,6 +58,9 @@ sections:
   - title: Merge Requests
     icon: favicon
     url: https://git.digitgaming.com/digit/nano-prime-client/-/merge_requests/
+  - title: Slots System
+    icon: favicon
+    url: https://docs.google.com/presentation/d/1MgBlnyANGQ8zqRfPxwkrkCcH8AxEz0eSjqYIsH2uoAM/edit#slide=id.g1012bbf46c1_0_44
   widgets:
   - type: clock
     options:
@@ -78,15 +80,18 @@ sections:
 #    url:  
 - name: Pomodoro
   displayData:
-    rows: 2
-    cols: 1
     collapsed: false
   icon: fas fa-clock
   widgets:
     - type: iframe
       options:
         url: https://pomofocus.io/app
-
+- name: Filosofia
+  icon: fas fa-owl
+  items:
+  - title: 9 principios del razonamiento
+    icon: fas fa-brain
+    url: https://youtu.be/CyJRDOT-ZLE
 - name: Teclat
   displayData:
     rows: 2
@@ -95,16 +100,28 @@ sections:
   widgets:
     - type: image
       options:
-        imagePath: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d0076177-bbfd-4f90-8444-b6cee82b5969/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230127T104430Z&X-Amz-Expires=86400&X-Amz-Signature=5245f657ce1fe845474077c84bb503947e3738628683d23c1dc44864207c847b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
-#    - type: gl-current-cpu
-#      useProxy: true  
-#      options:
-#        hostname: "http://1986-91-116-33-5.eu.ngrok.io"
-
+        imagePath: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d0076177-bbfd-4f90-8444-b6cee82b5969/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230201T120641Z&X-Amz-Expires=86400&X-Amz-Signature=501ed8757926c5a05269fcfd7496e9d543ab0fcbf006916c76cc347b31e08205&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+    - type: gl-current-cpu 
+      options:
+        hostname: "http://192.168.1.2:61208"
+    - type: gl-disk-space
+      options:
+        hostname: "http://192.168.1.2:61208"
+    - type: gl-mem-history
+      options:
+        hostname: "http://192.168.1.2:61208"
+        limit: 80
+    - type: gl-network-interfaces
+      options:
+        hostname: "http://192.168.1.2:61208"
+    - type: gl-ip-address
+      options:
+        hostname: "http://192.168.1.2:61208"
+    - type: gl-disk-space
+      options:
+        hostname: "http://192.168.1.2:61208"
 - name: Getting Started
   displayData:
-    rows: 1
-    cols: 1
     collapsed: true
   icon: fas fa-rocket
   items:
@@ -144,3 +161,9 @@ sections:
   - title: Widgets
     url: https://dashy.to/docs/widgets/
     icon: favicon
+- name: Filosofia
+  icon: fas fa-owl
+  items:
+  - title: 9 principios del razonamiento
+    icon: fas fa-brain
+    url: https://youtu.be/CyJRDOT-ZLE
